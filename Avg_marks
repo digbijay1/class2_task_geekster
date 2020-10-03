@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class Avg_marks {
+
+	public static void main(String[] args) {
+Scanner scan=new Scanner(System.in);
+int num1=scan.nextInt();
+int num2=scan.nextInt();
+int num3=scan.nextInt();
+int avg=(num1+num2+num3)/3;
+if(avg>=90 && 100>=avg) {
+	System.out.println("A");
+}
+else if(avg>=80 && 89>=avg) {
+	System.out.println("B");
+}
+else if(avg>=70 && 79>=avg) {
+	System.out.println("c");
+}
+else if(avg>=60 && 69>=avg) {
+	System.out.println("D");
+}
+else  {
+	System.out.println("F");
+}
+	}
+
+}
